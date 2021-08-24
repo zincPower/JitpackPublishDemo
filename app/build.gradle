@@ -36,6 +36,8 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout:${project.constraintlayout_version}"
     implementation "com.google.android.material:material:${project.material_design_version}"
 
-    implementation project(":zinc-module-a")
-    implementation project(":zinc-module-b")
+//    implementation project(":zinc-module-a")
+//    implementation project(":zinc-module-b")
+    implementation "com.github.zincPower.JitpackPublishDemo:zinc-module-a:1.0.0-beta.1"
+    implementation "com.github.zincPower.JitpackPublishDemo:zinc-module-b:1.0.0-beta.1"
 }
